@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Avatar from '../components/Avatar'
-import {ViewGridAddIcon, ViewGridIcon} from "@heroicons/react/solid"
+import {MicrophoneIcon, SearchIcon, ViewGridIcon} from "@heroicons/react/solid"
 
 export default function Home() {
   return (
@@ -38,6 +38,11 @@ export default function Home() {
           height={100}
           width={300}
         />
+        <div className="flex w-full mt-5 hover:shadow">
+          <SearchIcon className="h-5 mr-3 text-gray-500"/>
+          <input type="text" className="focus:outline-none" />
+          <MicrophoneIcon className="h-5"/>
+        </div>
 
       </form>
 
