@@ -32,6 +32,15 @@ export default function Home() {
 
 
       {/*Body*/}
+      <form>
+        <Image
+          src='https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png'
+          height={100}
+          width={300}
+        />
+
+      </form>
+
 
 
       {/*Footer*/}
