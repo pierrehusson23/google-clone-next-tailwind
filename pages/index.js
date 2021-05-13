@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Avatar from '../components/Avatar'
+import {ViewGridAddIcon, ViewGridIcon} from "@heroicons/react/solid"
 
 export default function Home() {
   return (
@@ -20,10 +22,10 @@ export default function Home() {
           <p className='link'>Gmail</p>
           <p className='link'>Images</p>
 
+        <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
 
-        <Avatar>
+        <Avatar url='https://st.depositphotos.com/1779253/5140/v/600/depositphotos_51405259-stock-illustration-male-avatar-profile-picture-use.jpg'/>
           
-        </Avatar>
         </div>
       </header>
 
